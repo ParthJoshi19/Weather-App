@@ -5,7 +5,7 @@ const Weather = () => {
     const [city, setCity] = useState('');
     const [weatherData, setWeatherData] = useState(null);
     const [error, setError] = useState(null);
-    const [weaBG, setBG] = useState("url('/src/components/BackGrounds/bg.jpg')");
+    const [weaBG, setBG] = useState("https://media.istockphoto.com/id/947314334/photo/blue-sky-with-bright-sun.jpg?s=612x612&w=0&k=20&c=XUlLAWDXBLYdTGIl6g_qHQ9IBBw4fBvkVuvL2dmVXQw=')");
 
     const imge = {
         backgroundImage: weaBG,
