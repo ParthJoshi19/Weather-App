@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#spinner{
+    animation: spin linear infinite 800ms;
+}
+#imge{
+    background-image: url('/src/components/bg.jpg');
+    background-repeat:no-repeat;
+    background-position: 0vh;
+    
+}
+@keyframes spin {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+.background {
+    background-size: cover;
+    background-position: center;
+    transition:ease-in-out background-image 900ms;
+  }
